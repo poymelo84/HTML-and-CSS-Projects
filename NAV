@@ -1,0 +1,17 @@
+<!DOCTYPR html>
+<html lang="en">
+	<head>
+	<title>Navigation Page.</title>
+			<meta charset="utf-8">
+	</head>
+	<h1>WELCOME TO COMMERCIAL AVIATION</h1>
+	<h3>Types of Passenger Aircraft</h3>
+	<nav>
+	<a href="https://www.boeing.com/commercial/777#carousel-ce579aa0b5-item-b39c4b23dc-tabpanel">Boeing 777</a>	|
+	<a href="https://www.boeing.com/commercial/787#carousel-0c08a3b0bb-item-2096f7a767-tabpanel">Boeing 787</a>	|
+	<a href="https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350-family">Airbus	 A350</a>	|
+	<a href="https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family">Airbus A321XLR</a>	
+	</nav>
+	<main>
+	</main>
+</html>

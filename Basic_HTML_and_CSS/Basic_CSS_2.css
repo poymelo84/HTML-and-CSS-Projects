@@ -1,0 +1,17 @@
+/*This is my CSS for Basic_HTML_5.html*/
+
+p {
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	color: snow;
+	background: black;
+	font-size: 36;
+	text-shadow: 2px 2px red;
+}
+h1	{
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}

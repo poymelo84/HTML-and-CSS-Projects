@@ -1,0 +1,134 @@
+body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+
+
+}
+
+/*------------------------------
+LIST ON TOP OF WEBPAGE
+------------------------------*/
+menu {
+    color: rgba(43, 42, 42, 0.393);
+    font: bold 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0% auto;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li {
+    color: #fff;
+    background-color: rgb(46, 107, 219);
+    display: inline-block;
+    margin: 0% auto;
+    position: relative;
+    padding: 15px 4%;
+    border: 3px solid #9d9fa2;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    /*background-color: #052136;*/
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: .4s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.menu li:hover {
+    color: rgb(7, 0, 0);
+    background-color: rgba(100, 65 0, 0.3);
+}
+
+h5 {
+    font-size: 2.0em;
+    text-align: center;  
+    font: sans-serif;
+    font-variant: small-caps;
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    background-color: #43c4e1;
+    border: 2px solid black;
+    border-radius: 5%;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back{
+    color: rgba(43, 42, 42, 0.393);
+    font: bold 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0% auto;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none; 
+}
+.me_nu li {
+    color: #fff;
+    background-color: rgb(46, 107, 219);
+    display: inline-block;
+    margin: 0% auto;
+    position: relative;
+    padding: 15px 4%;
+    border: 1px solid #9d9fa2;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    /*background-color: #052136;*/
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: .4s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+    margin-top: -15px;
+    margin-left: -40px;
+}
+
+
+				
+.table	{
+	border: 3px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.td:hover	{
+	background-color: gold;
+	color: black;
+}
+.tr, th	{
+	background-color: dodgerblue;
+	color: cornsilk;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+}
+    
+
+.tr, td	{
+	background-color: rgb(125, 119, 119);
+	color: white;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+
+    
+}
+
+
+h5	{
+	text-shadow: 2px 2px rgb(235, 235, 243);
+}
+
+

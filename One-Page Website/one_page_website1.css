@@ -1,0 +1,29 @@
+.font_1 {
+				background-color: darkred;
+				color: cornsilk;
+				font-size: 40;
+				text-align: center;
+				}
+p {
+				text-align: center;
+				}
+				
+.table	{
+	border: 3px solid black;
+}
+.td:hover	{
+	background-color: gold;
+	color: black;
+}
+.tr, th	{
+	background-color: dodgerblue;
+	color: cornsilk;
+}
+.tr, td	{
+	background-color: red;
+	color: white;
+}
+
+h5	{
+	text-shadow: 2px 2px blue;
+}

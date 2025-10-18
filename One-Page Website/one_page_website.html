@@ -4,6 +4,8 @@
 		<title>One_Page_Website</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="./css/one_page_website.css">
+		<script src="JS/one_page_website.js"></script>
+
 	</head>
 		<body style="background-color: lightblue;">	
 			
@@ -50,11 +52,11 @@
 
 									<!-- DETAILS -->	
 										<details> <!-- "open" can be added -->
-										<summary style="font-size: 14px; font-family: arial";>Subaru WRX STI</summary>
-											<h1 style="font-size: 14px; font-family: arial";>
+										<summary style="font-size: 28px; font-family: arial">SUBARU WRX STI</summary>
+											<h1 style="font-size: 14px; font-family: arial">
 												
 													<table style="width: 100%; text-align: center;">
->
+
 														<tr>
 															<th>Car</th>
 															<th>Manufacturer</th>
@@ -73,8 +75,8 @@
 											</h1>
 										</details>
 										<details>
-										<summary style="font-size: 14px; font-family: arial";>HONDA Civic Type R</summary>
-											<h1 style="font-size: 14px; font-family: arial";>
+										<summary style="font-size: 28px; font-family: arial">HONDA Civic Type R</summary>
+											<h1 style="font-size: 14px; font-family: arial">
 													<table style="width: 100%; text-align: center;">
 														<tr>
 															<th>Car</th>
@@ -94,8 +96,8 @@
 											</h1>
 										</details>
 										<details>
-										<summary style="font-size: 14px; font-family: arial";>Volkswagen Golf R</summary>
-											<h1 style="font-size: 14px; font-family: arial";>
+										<summary style="font-size: 28px; font-family: arial">VOLKSWAGEN Golf R</summary>
+											<h1 style="font-size: 14px; font-family: arial">
 													<table style="width: 100%; text-align: center;">
 														<tr>
 															<th>Car</th>
@@ -123,19 +125,105 @@
 											<!-- PHOTO CONTAINER 1-->
 											<div>
 												<div>
-													<p>
-													<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_5" width="500" height="325" alt="404-not found">
-													<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_6.htm" width="500" height="325" alt="404-not found">
-													<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_7.webp" width="500" height="325" alt="404-not found">
-													<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_8.webp" width="500" height="325" alt="404-not found">
-													<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_10.jpg" width="500" height="325" alt="404-not found">
-													<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_9.jpg" width="500" height="325" alt="404-not found">
-													</p>
+													<!-- Images used to open the lightbox -->
+													<div class="row">
+														<div class="column">
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_5.webp" width="500" height="325" onclick="openModal();currentSlide(1)" class="hover-shadow">
+														</div>
+														<div class="column">
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_6.avif" width="500" height="325" onclick="openModal();currentSlide(2)" class="hover-shadow">
+														</div>
+														<div class="column">
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_7.webp" width="500" height="325" onclick="openModal();currentSlide(3)" class="hover-shadow">
+														</div>
+														<div class="column">
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_8.webp" width="500" height="325" onclick="openModal();currentSlide(4)" class="hover-shadow">
+														</div>
+														<div class="column">
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_10.jpg" width="500" height="325" onclick="openModal();currentSlide(5)" class="hover-shadow">
+														</div>
+														<div class="column">
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_9.jpg" width="500" height="325" onclick="openModal();currentSlide(6)" class="hover-shadow">
+														</div>
+													</div>
+
+														<!-- The Modal/Lightbox -->
+													<div id="myModal" class="modal">
+														<span class="close cursor" onclick="closeModal()">&times;</span>
+														<div class="modal-content">
+
+															<div class="mySlides">
+															<div class="numbertext">1 / 6</div>
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_5.webp" width="500" height="325" style="width:50%">
+															</div>
+
+															<div class="mySlides">
+															<div class="numbertext">2 / 6</div>
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_6.avif" width="500" height="325" style="width:50%">
+															</div>
+
+															<div class="mySlides">
+															<div class="numbertext">3 / 6</div>
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_7.webp" width="500" height="325" style="width:50%">
+															</div>
+
+															<div class="mySlides">
+															<div class="numbertext">4 / 6</div>
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_8.webp" width="500" height="325" style="width:50%">
+															</div>
+
+															<div class="mySlides">
+															<div class="numbertext">5 / 6</div>
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_10.jpg" width="500" height="325" style="width:50%">
+															</div>
+
+															<div class="mySlides">
+															<div class="numbertext">6 / 6</div>
+															<img src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_9.jpg" width="500" height="325" style="width:50%">
+															</div>
+
+															<!-- Next/previous controls -->
+															<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+															<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+															<!-- Caption text -->
+															<div class="caption-container">
+															<p id="caption"></p>
+															</div>
+
+															<!-- Thumbnail image controls -->
+															<div class="column">
+															<img class="demo" src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_5.webp" width="100" height="65" onclick="currentSlide(1)" alt="">
+															</div>
+
+															<div class="column">
+															<img class="demo" src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_6.avif" width="100" height="65" onclick="currentSlide(2)" alt="">
+															</div>
+
+															<div class="column">
+															<img class="demo" src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_7.webp" width="100" height="65" onclick="currentSlide(3)" alt="">
+															</div>
+
+															<div class="column">
+															<img class="demo" src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_8.webp" width="100" height="65" onclick="currentSlide(4)" alt="">
+															</div>
+
+															<div class="column">
+															<img class="demo" src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_10.jpg" width="100" height="65" onclick="currentSlide(5)" alt="">
+															</div>
+
+															<div class="column">
+															<img class="demo" src="C:\Users\jaime\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\One-Page Website\thumbnail_9.jpg" width="100" height="65" onclick="currentSlide(6)" alt="">
+															</div>
+														</div>
+													</div>
 												<div>
 											</div>
 										</div>
 									</div>
-				    <div class="container">
+									<br>
+									<br>
+				    <div class="container">		
 						<h1>Do you want to learn more?</h1>
 							<div>
 								<h2><span>Please contact us</span></h2>
